@@ -1,4 +1,4 @@
-let totalSlides = document.querySelector('.slider-item').length;
+let totalSlides = document.querySelectorAll('.slider-item').length;
 let currentSlide = 0;
 
 let sliderWidth = document.querySelector('.slider').clientWidth;
